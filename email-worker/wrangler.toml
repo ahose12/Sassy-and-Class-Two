@@ -1,0 +1,11 @@
+name = "sassy-classy-quote-email"
+main = "worker.mjs"
+compatibility_date = "2026-11-01"
+
+[vars]
+# These public configuration values must be set before deployment.
+ALLOWED_ORIGIN = "https://ahose12.github.io"
+OWNER_EMAIL = "sassy_classy@rocketmail.com"
+# Replace with a sender on your verified email-service domain.
+FROM_EMAIL = "Sassy and Classy <quotes@YOUR-VERIFIED-DOMAIN.example>"
+# RESEND_API_KEY must be set as a Worker secret, never in the public repo.
